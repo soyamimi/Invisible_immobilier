@@ -1,4 +1,4 @@
-curl -X PUT "http://163.172.61.133:9200/paristest?pretty" -H 'Content-Type: application/json' -d'{
+{
   "mappings": {
       "properties": {
         "75001": {
