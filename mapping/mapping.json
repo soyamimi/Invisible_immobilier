@@ -1,0 +1,236 @@
+curl -X PUT "http://163.172.61.133:9200/paristest?pretty" -H 'Content-Type: application/json' -d'{
+  "mappings": {
+      "properties": {
+        "75001": {
+          "type": "long"
+        },
+        "75002": {
+          "type": "long"
+        },
+        "75003": {
+          "type": "long"
+        },
+        "75004": {
+          "type": "long"
+        },
+        "75005": {
+          "type": "long"
+        },
+        "75006": {
+          "type": "long"
+        },
+        "75007": {
+          "type": "long"
+        },
+        "75008": {
+          "type": "long"
+        },
+        "75009": {
+          "type": "long"
+        },
+        "75010": {
+          "type": "long"
+        },
+        "75011": {
+          "type": "long"
+        },
+        "75012": {
+          "type": "long"
+        },
+        "75013": {
+          "type": "long"
+        },
+        "75014": {
+          "type": "long"
+        },
+        "75015": {
+          "type": "long"
+        },
+        "75016": {
+          "type": "long"
+        },
+        "75017": {
+          "type": "long"
+        },
+        "75018": {
+          "type": "long"
+        },
+        "75019": {
+          "type": "long"
+        },
+        "75020": {
+          "type": "long"
+        },
+        "Trimestre": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          }
+        },
+        "arr": {
+          "type": "long"
+        },
+        "arr_latitude": {
+          "type": "float"
+        },
+        "arr_longitude": {
+          "type": "float"
+        },
+        "bus_num": {
+          "type": "long"
+        },
+        "category": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          }
+        },
+        "cateory": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          }
+        },
+        "code_postal": {
+          "type": "long"
+        },
+        "date_created": {
+          "type": "long"
+        },
+        "date_mutation": {
+          "type": "date"
+        },
+        "decibels": {
+          "type": "long"
+        },
+        "geometry": {
+          "properties": {
+            "coordinates": {
+              "type": "geo_point"
+            },
+            "type": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "type": "keyword",
+                  "ignore_above": 256
+                }
+              }
+            }
+          }
+        },
+        "gridcode": {
+          "type": "long"
+        },
+        "latitude": {
+          "type": "geo_point"
+        },
+        "longitude": {
+          "type": "geo_point"
+        },
+        "name": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          }
+        },
+        "name_busstop": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          }
+        },
+        "name_station_metro": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          }
+        },
+        "nombre_pieces_principales": {
+          "type": "long"
+        },
+        "official_name": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          }
+        },
+        "principal_name": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          }
+        },
+        "screens": {
+          "type": "long"
+        },
+        "seances": {
+          "type": "long"
+        },
+        "seats": {
+          "type": "long"
+        },
+        "sector": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          }
+        },
+        "surface": {
+          "type": "long"
+        },
+        "surface_reelle_bati": {
+          "type": "long"
+        },
+        "type": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          }
+        },
+        "type_local": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          }
+        },
+        "valeur_fonciere": {
+          "type": "long"
+        }
+      }
+    }
+}'
+
