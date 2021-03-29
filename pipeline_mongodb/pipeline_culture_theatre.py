@@ -1,4 +1,6 @@
 [
+    
+    """ This pipeline is for cleaning theatre data """
     {
         '$addFields': {
             'fields.code_postal': {
