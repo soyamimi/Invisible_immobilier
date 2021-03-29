@@ -1,4 +1,6 @@
 [
+    
+    """ This pipeline is for cleaning Cinema data """
     {
         '$match': {
             'fields.code_insee': {
