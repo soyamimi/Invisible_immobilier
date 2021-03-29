@@ -1,4 +1,5 @@
 [
+    """ This pipeline is for cleaning Bus data """
     {
         '$match': {
             'fields.codeinsee': {
