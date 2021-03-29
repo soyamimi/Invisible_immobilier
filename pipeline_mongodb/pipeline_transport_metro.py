@@ -1,4 +1,5 @@
 [
+    """ This pipeline is for cleaning Metro data """
     {
         '$match': {
             'fields.codeinsee': {
