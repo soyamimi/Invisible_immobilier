@@ -1,4 +1,5 @@
 [
+    """ This pipeline is for cleaning University data """
     {
         '$group': {
             '_id': '$fields.com_code', 
