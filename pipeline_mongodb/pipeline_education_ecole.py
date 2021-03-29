@@ -1,4 +1,5 @@
 [
+    """ This pipeline is for cleaning school data """
     {
         '$match': {
             'fields.libelle_academie': 'Paris'
