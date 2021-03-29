@@ -31,7 +31,7 @@ Découvrir / confirmer les critères et les corrélations qui influent sur le pr
 
 ## Environnement
 
-![image](modelisation/diagramme_sequence_environnement.png)
+![image](modelisation/diagramme_sequence_environnement.PNG)
 
 Les documents dans 8 collections sont transférés vers ElasticSearch. Pour une connexion entre MongoDB et ElasticSearch, le plugin Monstache est utilisé. 
 
@@ -45,7 +45,7 @@ Elasticsearch envoie des données à Kibana pour une visualisation des critères
 
 ## Fonctionnalité
 
-![image](modelisation/diagramme_sequence_utilisateur.png)
+![image](modelisation/diagramme_sequence_utilisateur.PNG)
 
 L’utilisateur doit tout d’abord se connecter à l’interface Kibana pour consulter le dashboard. L’interface Kibana envoie ensuite une demande au système pour établir une connexion avec la base de données. Le système charge les données qui charge les données en base et les envoie à l’interface Nous utilisons ainsi la technologie ElasticSearch pour cette étape d’importation des données. L’interface effectue la mise à jour avec les données reçues et publie ces données sur le dashboard.
  
